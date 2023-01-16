@@ -1,12 +1,12 @@
 class Counter
   def initialize
     @count = 0
-  end
-
+  end 
+  
   def add(num)
     @count += num
-  end
-
+  end 
+  
   def report
     return "Counted to #{@count} so far."
   end

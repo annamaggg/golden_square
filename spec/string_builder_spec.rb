@@ -1,4 +1,4 @@
-require 'string_builder'
+require 'string_builder.rb'
 
 RSpec.describe StringBuilder do
   it "returns the length of a string" do
