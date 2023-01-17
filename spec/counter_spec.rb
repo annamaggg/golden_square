@@ -1,10 +1,10 @@
-require 'counter'
+require "counter"
 
-RSpec.describe Counter do
-  it "takes an integer and adds to a count" do
-    test = Counter.new()
-    test.add(5)
-    ans = test.report
-    expect(ans).to eq "Counted to 5 so far."
+RSpec.describe Counter do 
+  it "adds a number to a count" do 
+    input = Counter.new()
+    input.add(5)
+    answer = input.report
+    expect(answer).to eq "Counted to 5 so far."
   end
 end
